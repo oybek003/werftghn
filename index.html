@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="div1">
+        <div>
+          <h1 class="h11">TEXT</h1>
+        </div>
+    
+        <input type="text" id="text-input" class="input1" placeholder="введите текст">
+    
+        <div>
+          <p>громкость</p>
+          <input type="range" class="input2" id="volume" min="0" max="1" step="0.1" value="1">
+        </div>
+    
+        <div>
+          <p class="pp">тон</p>
+          <input type="range" class="input3" id="pitch" min="0" max="2" step="0.1" value="1">
+        </div>
+    
+        <div>
+          <p>язык</p>
+          <select id="language-select">
+            <option value="ru-RU">Русский</option>
+            <option value="en-US">English</option>
+            <option value="fr-FR">Français</option>
+            <option value="de-DE">Deutsch</option>
+          </select>
+        </div>
+    
+        <div>
+          <button class="button1" id="speak-btn">🔊 text</button>
+        </div>
+      </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
